@@ -41,6 +41,8 @@ int main()
 
     printLineByCoords(0,lineArray,numLines,pointArray,numPoints);
     getStabbedLines(3,lineArray,numLines-1,numLines,pointArray,numPoints-1,stabbedLines,numLines-1,numStbLines);
+    getStabbedLines(2,lineArray,numLines-1,numLines,pointArray,numPoints-1,stabbedLines,numLines-1,numStbLines);
+    getStabbedLines(1,lineArray,numLines-1,numLines,pointArray,numPoints-1,stabbedLines,numLines-1,numStbLines);
 
     pointfile.close();
     linefile.close();
